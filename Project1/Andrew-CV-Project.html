@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <title>Andrew Gooch : A Digital CV</title>
+    <link rel="stylesheet" href="Exercise2.1--CV_Style.css">
   </head>
   <body>
       <h1>Andrew Gooch CV Project</h1>
-         <linebreak></linebreak>
-           <img src="07B07BE9-8F6D-41CC-A61C-3BAF624B1110_1_102_o.jpeg" alt="Photo of Andrew Gooch" height="200" width="200" >
-      <p> <strong> Email: </strong> musicofgooch@gmail.com </p>
-      <p> <strong> Phone Number: </strong> (760) 983-8913 </p>
-  
+        <linebreak></linebreak>
+      <img src="07B07BE9-8F6D-41CC-A61C-3BAF624B1110_1_102_o.jpeg" alt="Photo of Andrew Gooch" height="200" width="200" >
+      <div id="contact">
+        <p> <strong> Email: </strong> musicofgooch@gmail.com </p>
+        <p> <strong> Phone Number: </strong> (760) 983-8913 </p>
+      </div>
+      <div id="space">
+        <br>
+        <br>
+      </div>
 
     <h2> Greetings! </h2>
     <p> Welcome to my digital CV project!  Thank you for taking the time to check out all of my work this semester!
@@ -18,35 +24,37 @@
       point in the future!
     </p>
 
-    <h1> Summary </h1>
+    <h2> Summary </h2>
     <p> My name is Andrew Gooch, and this is my CV for the springboard class!</p>
 
-        <h1> Education </h1>
+        <h2> Education </h2>
     <table>
         <thead>
         <tr>
             <th> Institution </th>
             <th> Type </th>
-            <th> Year Obtained </th>
+            <th id="lastcell"> Year Obtained </th>
         </tr>
+
          </thead>
          <tbody>
         <tr>
             <td> Springboard </td>
             <td> Computer Software Certificate </td>
-            <td> 2026 </td>
+            <td id="lastcell"> 2026 </td>
         </tr>
         <tr>
             <td> Victor Valley College </td>
-            <td> Associates in Computer Software and Mathematics </td>
-            <td> 2026 </td>
+            <td> CIS and MATH AA </td>
+            <td id="lastcell"> 2026 </td>
         <tr>
             <td> Sultana High School </td>
             <td> Diploma </td>
-            <td> 2019 </td>
+            <td id="lastcell"> 2019 </td>
         </tr>
          </tbody>
         </table>
+        <hr>
         <br><br>
      </body>
 
@@ -66,9 +74,9 @@
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" cols="50" required placeholder="Let me know what you're thinking!"></textarea><br><br>
 
-        Are you having a good time?  <br>
-        Yes!<input type="radio" name="mood" value="Good"> <br>
-        No! <input type="radio" name="mood" value="Bad"> <br>
+        Are you having a good time?&nbsp; &nbsp; 
+        Yes!<input type="radio" name="mood" value="Good"> 
+        No!<input type="radio" name="mood" value="Bad"> 
 
         </radio><br><br>
 
