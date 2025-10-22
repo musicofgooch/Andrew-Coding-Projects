@@ -3,11 +3,42 @@ h1{
     color: #000000;
     text-shadow: 2px 2px 4px #ffffff;
 }
+img #bg{
+    display: flex;
+    border-radius: 10%;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+}
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    position : absolute;
+}
+#photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    padding : 100px;
+    margin: 0 auto;
+}
 h2{
     text-align: center;
     letter-spacing: 5px;
-    text-decoration: underline .5px #ffffff;
+    text-decoration: underline .01px #ffffff;
     text-shadow: 1px 1px 2px #ffffff;
+    font-style: italic;
+    border-color : black;
+    border-width : 1px;
+    border-style : solid;
+    width : 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient(circle,  #3a77c7dd ,#bd4fdfdd);
 }
 h3{
     font-family: 'Arial Black', Gadget, sans-serif;
@@ -17,18 +48,13 @@ h3{
 }
 p{
     text-align: center;
-    font-size: 18px;
-    color: #000000;
-    text-shadow: 1px 1px 2px #ffffff;}
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10%;
-    background-color: white;
-}
+    margin: auto;
+    width : 50%;
+    font-size: 20px;
+    color: #000000c8;
+    text-shadow: 1px 1px .5px #474fbd88;}
 body{
-    background-image: radial-gradient(circle, #e38bfedd, #f97474dd);
+    background-image: radial-gradient(circle, #bd4fdfdd, #3a77c7dd);
 }
 #contact {
     text-align: center;
