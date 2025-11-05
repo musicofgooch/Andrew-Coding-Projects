@@ -1,23 +1,23 @@
-h1{
+h1{ /* Title */
     text-align: center;
     color: #000000;
     text-shadow: 2px 2px 4px #ffffff;
 }
-img #bg{
+img #bg{ /* Photos at top of CV */
     display: flex;
     border-radius: 10%;
     justify-content: center;
     align-content: center;
     position: absolute;
 }
-img {
+img { /* Photos at top of CV */
     display: flex;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10%;
     position : absolute;
 }
-#photos{
+#photos{ /* Use with img to layer photos */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@ img {
     padding : 100px;
     margin: 0 auto;
 }
-h2{
+h2{ /* Important Info */
     text-align: center;
     letter-spacing: 5px;
     text-decoration: underline .01px #ffffff;
@@ -40,34 +40,34 @@ h2{
     margin-right: auto;
     background-image: radial-gradient(circle,  #3a77c7dd ,#bd4fdfdd);
 }
-h3{
+h3{ /* Section Headings */
     font-family: 'Arial Black', Gadget, sans-serif;
     text-align: center;
     letter-spacing: 5px;
     text-shadow: -2px 2px 2px #ffffff;
 }
-p{
+p{ /* Paragraph Text */
     text-align: center;
     margin: auto;
     width : 50%;
     font-size: 20px;
     color: #000000c8;
     text-shadow: 1px 1px .5px #474fbd88;}
-body{
+body{ /* Background */
     background-image: radial-gradient(circle, #bd4fdfdd, #3a77c7dd);
 }
-#contact {
+#contact { /* Contact Info Section */
     text-align: center;
     font-size: 20px;
     color: #000000;
     text-shadow: 1px 1px 2px #ffffff;
     
 }
-table{
+table{ /* Tables */
     margin-left: auto;
     margin-right: auto;
 }
-table th{
+table th{ /* Table Headers */
     border: 1px solid #dddddd;
     padding: 1px;;
     color: #000000;
@@ -78,7 +78,7 @@ table th{
     margin-right: auto;
 
 }
-table td{
+table td{ /* Table Data Cells */
     border: 1px solid #dddddd;
     font-family: Impact, fantasy;
     border-collapse: collapse;
@@ -90,10 +90,10 @@ table td{
     color: #000000;
     text-shadow: 1px 1px 2px #ffffff;
 }
-form{  
+form{ /* Contact Form */
     text-align: center;
     text-shadow: 1px 1px 2px #ffffff;
 }
-#lastcell{
+#lastcell{ /* Last Cell in Table */
     width: 200px;
 }
