@@ -8,8 +8,8 @@ function encryptLetter(letter, shift){
 function encryptMessage(message, shift){
     let newMessage = "";
     for (let i=0; i < message.length; i++){
-        shift += i// Each letter is shifted by its position in the message.
-        if (i === 3){ //After every 3rd letter A is added and after every 7th letter E is added. 
+        shift += i // Each letter is shifted by its position in the message.
+        if (i === 3){ // After the 3rd letter A is added.
             newMessage += "A";
         }
         
@@ -24,7 +24,7 @@ function decryptLetter(encryptedLetter, shift){
     return alphabet[newIndex].toUpperCase();
 }
 function decryptMessage(message, shift){
-    randMessage = message.slice(0, 3) + message.slice(4);
+    randMessage = message.slice(0, 3) + message.slice(4); // Removes the A
     let oldMessage = "";
     for (let j=0; j < randMessage.length; j++){
         shift = shift + j; // Each letter is shifted by its position in the message.
