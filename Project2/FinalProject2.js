@@ -12,6 +12,9 @@ function encryptMessage(message, shift){
         if (i === 3){ // After the 3rd letter A is added.
             newMessage += "A";
         }
+        if (i === 5){ // After the 5th letter E is added.
+            newMessage += "E";
+        }
         
         newMessage += encryptLetter(message[i], shift);
 
@@ -24,7 +27,7 @@ function decryptLetter(encryptedLetter, shift){
     return alphabet[newIndex].toUpperCase();
 }
 function decryptMessage(message, shift){
-    randMessage = message.slice(0, 3) + message.slice(4); // Removes the A
+    randMessage = message.slice(0, 3) + message.slice(4,6) + message.slice(7); // Removes the A
     let oldMessage = "";
     for (let j=0; j < randMessage.length; j++){
         shift = shift + j; // Each letter is shifted by its position in the message.
@@ -32,5 +35,5 @@ function decryptMessage(message, shift){
     }
     return oldMessage;
 }
-console.log("Encrypted Message: " + encryptMessage("Bobby", 1));
-console.log("Decrypted Message: " + decryptMessage(encryptMessage("Bobby", 1), 1));
+console.log("Encrypted Message: " + encryptMessage("Bobbybobman", 1));
+console.log("Decrypted Message: " + decryptMessage(encryptMessage("Bobbybobman", 1), 1));
