@@ -38,3 +38,6 @@ function updateParticipantInfo(participant, key, value) {
 
 /* Task 4: Using Computed Property Names */
 // TODO: Implement a function named `updateParticipantInfo` that takes a property name and value as arguments alongside an object and returns a new object with that property dynamically set.
+
+const updatedParticipant = updateParticipantInfo(participant, "Title", "Computer Engineer Captain");
+console.log(updatedParticipant);
